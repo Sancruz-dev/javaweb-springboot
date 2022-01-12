@@ -1,0 +1,46 @@
+• É possível criar o projeto através do navegador entrando no link: https://start.spring.io/
+E depois de gerar o zip, é preciso importar para dentro no STS: abrir a aba 'Maven' e selecionar 'Existing Maven Projects', e em seguida selecionar a pasta do projeto onde tem o src, .mvn e outros... A partir disso já é pra aparecer o arquivo pom.xml (configuration file of Maven), que já é um sinal de sucesso, depois em finish.
+
+
+• type Maven Project (gerenciador de dependências): app que baixa da internet todas libs dependentes que o projeto precisar.
+
+
+• O nome do grupo que faz parte dos metadados do projeto, tem o nome de caminho invertido para ser um caminho único, como "com.devsuperior".
+
+
+• @SpringBootApplication: é uma anotation que vai fazer um pré-processamento na classe antes cde compilar transformando-a em um projeto spring boot. (O Framework Spring faz muito use de 'anotations' pra deixar o código mais limpo).
+
+
+• ctrl + shift + f = identar no STS.
+
+Após isso, clicar com o botao direito na pasta principal contendo o [boot] > Maven > Udate Projects... > marcar caixa "force Update of Snapshots" > OK.
+
+
+• ORM (Mapeamento objeto-relacional): Processo de conversão do modelo relacional num modelo de objetos. Portanto, JPA é uma ferramenta ORM que agiliza todo esse processo, para que ele não seja "feito na mão".
+
+
+• As configurações do BD vão dentro de application.properties na pasta resoucers.
+
+
+• UserRepository tem como função no projeto, de buscar, salvar, deletar atualizar os dados do usuario com o endpoints.
+
+
+• Controlador REST: Objeto responsável por receber as requisições do usuários, e repondê-las.
+
+
+• Mecanismo de injeção de independência: agiliza o uso de isntanciação de composição de componentes.
+
+
+• findById: retorna um 'optional' (objeto especial do java), e dentro do objeto é que está o que está sendo buscado. 
+
+
+• Na requisição POST coloca-se o corpo na URL com o objeto que será salvado/inserido.
+
+
+• Para consultar o BD do projeto: http://localhost:8080/h2-console
+
+
+• Para consultar os dados da tabela de usuarios: http://localhost:8080/users
+
+
+
