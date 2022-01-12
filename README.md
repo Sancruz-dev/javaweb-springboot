@@ -44,6 +44,11 @@ Vamos construir um pequeno sistema (API REST) de usuários e departamentos, com 
 - Configurar o banco de dados H2
 - Criar os endpoints da API REST
 
+### Configuração Inicial com [Spring Initializr](https://start.spring.io/)
+
+![Print - Sprint Initilizr](https://user-images.githubusercontent.com/83969467/149042792-9f302278-5c66-496b-9c7f-587a8da54f16.png)
+
+
 ### Trechos de código para copiar
 
 #### Configuração do Maven Resources Plugin
@@ -57,7 +62,7 @@ Vamos construir um pequeno sistema (API REST) de usuários e departamentos, com 
 </plugin>
 ```
 
-###### **Obs**: Após isso, clicar com o botão direito na pasta principal contendo o [boot] > Maven > Udate Projects... > marcar caixa "force Update of Snapshots" > OK.
+###### OBS: Após isso, clicar com o botão direito na pasta principal contendo o [boot] > Maven > Udate Projects... > marcar caixa "force Update of Snapshots" > OK.
 
 #### Configurações do banco de dados
 
