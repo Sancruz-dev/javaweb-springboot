@@ -93,9 +93,15 @@ INSERT INTO tb_user(department_id, name, email) VALUES (2, 'Alex', 'alex@gmail.c
 INSERT INTO tb_user(department_id, name, email) VALUES (2, 'Ana', 'ana@gmail.com');
 ```
 
-## Anotações Pessoais da Aula
+##
+<p align="center">
+	______ ANOTAÇÕES PESSOAIS DA AULA ______
+</p>
+<p align="center">
+	<img width="180px" height="123px" src="https://user-images.githubusercontent.com/83969467/149059281-a2550df8-dd9b-4118-988c-10b431adb8b1.gif" /> 
+</p>
 
-[•](https://#) É possível criar o projeto através do navegador entrando no link: https://start.spring.io/
+- É possível criar o projeto através do navegador entrando no link: https://start.spring.io/
 E depois de gerar o zip, é preciso importar para dentro no STS: abrir a aba 'Maven' e selecionar 'Existing Maven Projects', e em seguida selecionar a pasta do projeto onde tem o src, .mvn e outros... A partir disso já é pra aparecer o arquivo pom.xml (configuration file of Maven), que já é um sinal de sucesso, depois em finish.
 
 
